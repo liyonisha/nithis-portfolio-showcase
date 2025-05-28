@@ -1,5 +1,5 @@
 
-import { Code, Graduation, MapPin, Phone } from "lucide-react";
+import { Code, GraduationCap, MapPin, Phone } from "lucide-react";
 
 export const About = () => {
   return (
@@ -49,7 +49,7 @@ export const About = () => {
           <div className="space-y-6">
             <div className="bg-gray-900/50 p-6 rounded-xl border border-gray-700">
               <div className="flex items-center space-x-3 mb-4">
-                <Graduation size={24} className="text-purple-400" />
+                <GraduationCap size={24} className="text-purple-400" />
                 <h3 className="text-xl font-semibold">Education</h3>
               </div>
               <div className="space-y-4">
